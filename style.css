@@ -1,0 +1,97 @@
+/* Body
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: '#777'
+background: '#777'
+width: '960px'
+font-size: '18px'
+
+
+Header, Nav, Section, Aside, and Footer
+background: '#ebebeb'
+
+
+Article
+color: '#ebebeb',
+background: '#777'
+
+
+h1 and p
+color: '#777',
+background: '#ebebeb'
+
+
+
+
+The widths of each section should be:
+section: 495px */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background: #777;
+  width: 960px;
+  font-size: 18px;
+}
+
+header, .nav, .section, .aside, footer {
+  background: #ebebeb;
+  text-align: center;
+}
+
+header {
+  padding: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
+}
+
+.nav {
+  padding: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
+}
+
+.middle {
+float: left;
+padding: 10px 10px 10px 0px;
+width: 50%;
+}
+
+.aside {
+  float: left;
+  padding:10px 180px 276px 180px;
+  margin: 10px 0px 10px 10px;
+  width: 100px;
+}
+
+.section {
+  padding: 37px 5px 10px 0px;
+}
+
+.article {
+  color: #ebebeb;
+  background: #777;
+  text-align: center;
+  margin: 30px 10px 10px 10px;
+  padding: 26px 5px 25px 5px;
+}
+
+.heads, .p {
+color: #777;
+background: #ebebeb;
+text-align: center;
+}
+
+.heads {
+  padding: 10px 10px 10px 10px;
+  margin: 25px 10px 10px 10px;
+}
+
+.p {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+footer {
+  padding: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
+  clear: both;
+  overflow: auto;
+}
